@@ -1,3 +1,7 @@
+/*
+ * Brandon Mack, Qingyang Dai
+ * */
+
 package swe.hw4.swe642_hw4_project;
 
 import java.util.List;
@@ -15,6 +19,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import swe.hw4.swe642_hw4_project.model.Student;
 import swe.hw4.swe642_hw4_project.service.StudentService;
+
+//Manages all the resource mapping of HTTP requests
 
 @RestController // Lets the server know it is a REST controller for handling services
 @RequestMapping("/student")

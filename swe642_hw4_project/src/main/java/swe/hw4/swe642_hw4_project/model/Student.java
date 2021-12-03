@@ -1,3 +1,7 @@
+/*
+ * Brandon Mack, Qingyang Dai
+ * */
+
 package swe.hw4.swe642_hw4_project.model;
 
 import java.io.Serializable;
@@ -7,6 +11,9 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+
+
+//Creates the table SQL data structure
 
 @Entity
 public class Student implements Serializable {

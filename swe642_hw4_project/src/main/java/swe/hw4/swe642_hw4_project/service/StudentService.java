@@ -1,3 +1,7 @@
+/*
+ * Brandon Mack, Qingyang Dai
+ * */
+
 package swe.hw4.swe642_hw4_project.service;
 
 import java.util.List;
@@ -8,6 +12,8 @@ import org.springframework.stereotype.Service;
 
 import swe.hw4.swe642_hw4_project.model.Student;
 import swe.hw4.swe642_hw4_project.repo.StudentRepo;
+
+//User defined service methods
 
 @Service
 public class StudentService {
